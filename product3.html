@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!--========== CSS SLICK ==========-->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
+        
+        <title>Wazen Store</title>
+    <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="assets/img/LOGO.png">
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <a href="index.html" class="nav__logo">Wazen Store®</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Quality</a></li>
+                        <li class="nav__item"><a href="#products" class="nav__link">Product</a></li>
+                        <li class="nav__item"><a href="#size" class="nav__link">Size Chart</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>              
+       
+                <div class="nav__shop">
+                    <a href="#" class="nav__icon">
+                        <i class='bx bx-shopping-bag'></i>
+                        <span>2</span>
+                    </a>
+                    
+                    <div class="nav__shop-content">
+                        
+                        <div class="title_shop">
+                            <span>Keranjang Belanja</span>
+                        </div>
+                    
+                        <div class="item">                       
+                            <div class="image_cart">
+                                <div class="image_c">
+                                    <img src="assets/img/katalog1.jpg" alt="">
+                                </div>
+                            </div>                     
+                            <div class="description">
+                                <span>[Kinda Sus]</span>
+                                <span>1 Pcs</span>
+                            </div>                            
+                            <div class="total-price">Rp. 120.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x'></i>
+                            </a>
+                        </div>
+        
+                        <div class="item">                       
+                            <div class="image_cart">
+                                <div class="image_c">
+                                    <img src="assets/img/katalog2.jpg" alt="">
+                                </div>
+                            </div>                       
+                            <div class="description">
+                                <span>[Mask Off]</span>
+                                <span>1 Pcs</span>
+                            </div>                        
+                            <div class="total-price">Rp. 120.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x'></i>
+                            </a>
+                        </div>
+                        <div class="total-all">
+                            <span>Total</span>
+                            <span>Rp. 240.000</span>
+                        </div>
+                        <div class="btn-viewcard">
+                            <a href="#" class="button-top">View Card</a>
+                        </div>
+                        <div class="btn-checkout">
+                            <a href="success.html" class="button-top2">Check Out</a>
+                        </div>                        
+                    </div>
+                </div>                 
+            </nav>
+        </header>
+
+        
+
+        <main class="l-main">
+            <!--========== PAGINATION ==========-->            
+            <section class="section bd-container" id="breadcrumb">
+                <div class="bd-grid breadcrumb">
+                    <div class="breadcrumb">
+                        <li><a href="index.html"> <i class='bx bxs-home'></i>  Home</a></li>
+                        <li>Detail</li>
+                    </div>
+                    <div class="breadcrumb-pagination">
+                    </div>
+                </div>
+            </section>    
+       
+            <!--========== DETAIL ==========-->
+            <section class="detail bd-container" id="detail">
+                <div class="detail__container  bd-grid">
+                    <div class="detail__img">
+                        <div class="product-pic-zoom">
+                            <img class="product-big-img" src="assets/img/katalog4.jpg" alt="" />
+                        </div>
+                        <div class="product-thumbs ">
+                            <div class="product-thumbs-track ps-slider bd-grid multiple-items">
+                                <div class="pt active" data-imgbigurl="assets/img/detail9.jpg">
+                                    <img src="assets/img/detail9.jpg" alt="" />
+                                </div>
+                                <div class="pt" data-imgbigurl="assets/img/size-chart1.jpg">
+                                    <img src="assets/img/size-chart1.jpg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail__data">
+                        <span class="section-subtitle detail__initial">Wazen</span>
+                        <h2 class="section-title detail__initial">[TOO LATE HOODIE]</h2>
+
+                            <div class="size_detail-container">
+                                <b>SIZE</b>
+                                <div class="sizes_detail" >
+                                    <span class="size_detail">S</span>
+                                    <span class="size_detail">M</span>
+                                    <span class="size_detail">L</span>
+                                    <span class="size_detail">XL</span>
+                                    <span class="size_detail">XXL</span>
+                                </div>
+                            </div>   
+                            <b>SPESIFIKASI PRODUK</b><br>
+                            Warna           : Hitam <br>                          
+                            Bahan           : Katun <br>
+                            Motif           : Print <br>
+                            Panjang Lengan  : Lengan Panjang <br>
+                            
+                            <div class="price_detail">
+                                <b>Rp. 300.000</b>
+                            </div>
+                            <br>    
+                        <a href="shopping-cart.html" class="button">Masukkan Keranjang</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!--========== PRODUCTS ==========-->
+            <section class="products section bd-container" id="products">
+                <h2 class="section-title">Related Products</h2>
+
+                <div class="products__container bd-grid logo-slider slick_two">
+                    
+                    <div class="products__content">
+                        <img src="assets/img/katalog1.jpg" alt="" class="products__img">
+                        <h3 class="products__name">[Kinda Sus]</h3>
+                        <span class="products__detail">T-Shirt</span><br>
+                        <span class="products__preci">Rp. 120.000,-</span>
+                        <a href="product.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/katalog2.jpg" alt="" class="products__img" >
+                        <h3 class="products__name">{Mask Off}</h3>
+                        <span class="products__detail">T-Shirt</span><br>
+                        <span class="products__preci">Rp. 120.000,-</span>
+                        <a href="product1.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/katalog3.jpg" alt="" class="products__img">
+                        <h3 class="products__name">[JTRINITY]</h3>
+                        <span class="products__detail">T-Shirt</span><br>
+                        <span class="products__preci">Rp. 120.000,-</span>
+                        <a href="product2.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+
+                    <div class="products__content">
+                        <img src="assets/img/katalog4.jpg" alt="" class="products__img">
+                        <h3 class="products__name">[TOO LATE HOODIE]</h3>
+                        <span class="products__detail">Hoodie</span><br>
+                        <span class="products__preci">Rp. 300.000,-</span>
+                        <a href="product3.html" class="button products__button_detail">Detail Product</i></a>
+                        <a href="#" class="button products__button"><i class='bx bx-cart-alt'></i></a>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Wazen Store®</a>
+                    <span class="footer__description">Store</span>
+                    <div>
+                        <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/wazen.c/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Shipping And Returns</a></li>
+                        <li><a href="#" class="footer__link">Measurement Guide</a></li>
+                        <li><a href="#" class="footer__link">Size Conversion Chart</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Event</a></li>
+                        <li><a href="#" class="footer__link">Contact us</a></li>
+                        <li><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li><a href="#" class="footer__link">Terms of services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Adress</h3>
+                    <ul>
+                        <li>Jl. Pendidikan 2</li>
+                        <li>Bekasi 17510 - Indonesia</li>
+                        <li>Phone : 081223456789</li>
+                        <li>WhatsApp : 081223456789</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 Kelompok 1. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        
+                       
+        <!--========== JS SLICK ==========-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script  src="assets/js/slick.js"></script>
+        <script  src="assets/js/slick.min.js"></script>
+
+        <script>
+            $('.slick_two').slick({
+                dots: true,
+                arrows: true,                
+                infiniite: true,
+                autoplay: true,
+                speed: 2000,
+                autoplaySpeed: 2000,
+                responsive: [
+                    {
+                    breakpoint: 5000,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                    },
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+            });
+
+            $('.multiple-items').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+
+            /*---Single Product---*/
+            $('.product-thumbs-track .pt').on('click', function () {
+                $('.product-thumbs-track .pt').removeClass('active');
+                $(this).addClass('active');
+                var imgurl = $(this).data('imgbigurl');
+                var bigImg = $('.product-big-img').attr('src');
+                if (imgurl != bigImg) {
+                    $('.product-big-img').attr({
+                        src: imgurl
+                    });
+                    $('.zoomImg').attr({
+                        src: imgurl
+                    });
+                }
+            });
+
+            $('.product-pic-zoom').zoom();
+        </script>
+     
+    </body>
+</html>
